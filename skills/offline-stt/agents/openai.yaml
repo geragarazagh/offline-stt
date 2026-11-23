@@ -1,0 +1,5 @@
+# Read by Codex and ChatGPT (skill interface) and by ClawHub (display name, summary, icon).
+interface:
+  display_name: "Offline STT"
+  short_description: "Transcribes speech, audio and video files to text or subtitles locally, offline."
+  icon_small: "./assets/icon-small.svg"

@@ -1,0 +1,16 @@
+{
+  "name": "offline-stt",
+  "displayName": "Offline STT",
+  "version": "0.1.0",
+  "description": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate.",
+  "author": {
+    "name": "Herman Harazha",
+    "url": "https://geragaraza.com"
+  },
+  "homepage": "https://github.com/geragarazagh/offline-stt",
+  "repository": "https://github.com/geragarazagh/offline-stt",
+  "license": "MIT",
+  "supportUrl": "https://github.com/geragarazagh/offline-stt/issues",
+  "privacyPolicyUrl": "https://geragaraza.com/skills/privacy/",
+  "icon": "./.claude-plugin/icon.png"
+}

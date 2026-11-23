@@ -1,0 +1,5 @@
+{
+  "name": "offline-stt",
+  "version": "0.1.0",
+  "description": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate."
+}
