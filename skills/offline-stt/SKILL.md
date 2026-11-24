@@ -42,14 +42,20 @@ order:
 github.com/geragarazagh/stt) running Whisper, Parakeet, and Qwen locally via
 `transcribe.cpp` with Silero VAD and iCloud-synced dictionary.
 
-Find it in this order, using the first that exits 0:
+Find it in this order, using the first that exits 0 (`--help`, not `--version`:
+STT 0.5-0.10 know only `--help`, and before 0.9 an unknown flag opens a second
+copy of the app):
 
 ```sh
-stt-cli --version
-/Applications/STT.app/Contents/MacOS/STT --version
+stt-cli --help
+/Applications/STT.app/Contents/MacOS/STT --help
 ```
 
-Below, `STT` stands for the full path that worked.
+Below, `STT` stands for the full path that worked. If its help does not list
+`--status`, this STT is older than 0.11: transcription, `--add-word` and
+`--add-pair` work, the other commands below do not. Tell the person once that
+STT's menu has Check for Updates (or `brew upgrade --cask stt` when installed
+with Homebrew), and use what works meanwhile.
 
 - **Check status** (active model, downloaded models, language, dictionary and
   history counts, running state):
@@ -158,9 +164,9 @@ anything or downloading a model:
 
 ## Known mistakes
 
-- Do not pass unknown `--flags` directly to older `STT` builds (< 0.9): they
-  launch a second GUI copy that steals the running app's socket. Use `stt-cli`
-  or `--version` / `--help`.
+- Do not pass a flag the found STT's `--help` does not list: before 0.9 an
+  unknown flag launches a second copy of the app that takes the running one's
+  socket.
 - `--add-word`, `--add-pair`, `--remove-word`, and `--remove-pair` require the
   STT app to be running so changes sync via iCloud and reload live. If `STT is
   not running.` appears, launch `open -g -a STT --args --background`, wait 1

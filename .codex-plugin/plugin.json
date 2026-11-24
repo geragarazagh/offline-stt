@@ -12,7 +12,7 @@
   "requires_local_executor": true,
   "interface": {
     "displayName": "Offline STT",
-    "shortDescription": "Transcribe audio offline",
+    "shortDescription": "Transcribe offline, fix dictation",
     "longDescription": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate.",
     "developerName": "Herman Harazha",
     "category": "Productivity",
@@ -23,9 +23,9 @@
     "logo": "./assets/icon-chatgpt.png",
     "composerIcon": "./assets/icon-chatgpt-composer.svg",
     "defaultPrompt": [
-      "Transcribe this audio recording into text.",
-      "Make .srt subtitles for this video offline.",
-      "Add this recurring dictation mishearing to my STT dictionary."
+      "Transcribe this recording to text.",
+      "Make .srt subtitles for this video.",
+      "Find what I dictated about the invoice yesterday."
     ],
     "brandColor": "#0098a4",
     "brandColorDark": "#0098a4"
