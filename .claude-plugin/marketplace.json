@@ -1,0 +1,15 @@
+{
+  "name": "offline-stt",
+  "description": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate.",
+  "owner": {
+    "name": "Herman Harazha",
+    "url": "https://geragaraza.com"
+  },
+  "plugins": [
+    {
+      "name": "offline-stt",
+      "source": "./",
+      "description": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "offline-stt",
+  "version": "0.1.0",
+  "description": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate.",
+  "author": {
+    "name": "Herman Harazha",
+    "url": "https://geragaraza.com"
+  },
+  "homepage": "https://github.com/geragarazagh/offline-stt",
+  "license": "MIT",
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "Offline STT",
+    "shortDescription": "Transcribe and fix dictation",
+    "longDescription": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate.",
+    "developerName": "Herman Harazha",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/geragarazagh/offline-stt",
+    "supportURL": "https://github.com/geragarazagh/offline-stt/issues",
+    "privacyPolicyURL": "https://geragaraza.com/skills/privacy/",
+    "logo": "./assets/icon-chatgpt.png",
+    "composerIcon": "./assets/icon-chatgpt-composer.svg",
+    "defaultPrompt": [
+      "Transcribe this recording to text.",
+      "Make .srt subtitles for this video.",
+      "Find what I dictated about the invoice yesterday."
+    ],
+    "brandColor": "#0098a4",
+    "brandColorDark": "#0098a4"
+  }
+}
