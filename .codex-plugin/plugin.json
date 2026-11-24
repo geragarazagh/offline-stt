@@ -12,7 +12,7 @@
   "requires_local_executor": true,
   "interface": {
     "displayName": "Offline STT",
-    "shortDescription": "Transcribe offline, fix dictation",
+    "shortDescription": "Transcribe and fix dictation",
     "longDescription": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate.",
     "developerName": "Herman Harazha",
     "category": "Productivity",
