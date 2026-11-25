@@ -1,6 +1,6 @@
 {
   "name": "offline-stt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turns audio or video into text or subtitles offline with local speech models, and keeps a dictation dictionary accurate.",
   "author": {
     "name": "Herman Harazha",
