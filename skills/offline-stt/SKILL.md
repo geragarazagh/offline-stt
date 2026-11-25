@@ -39,7 +39,7 @@ order:
 ### 1. macOS with `STT` / `stt-cli` (best)
 
 `STT` is a free open-source macOS dictation and transcription app (MIT,
-github.com/geragarazagh/stt) running Whisper, Parakeet, and Qwen locally via
+github.com/geragarazagh/stt) running Whisper and Parakeet locally via
 `transcribe.cpp` with Silero VAD and iCloud-synced dictionary.
 
 Find it in this order, using the first that exits 0 (`--help`, not `--version`:
@@ -96,7 +96,7 @@ with Homebrew), and use what works meanwhile.
 
 #### Keeping the dictionary clean
 
-- **Words (`--add-word`)** feed Whisper's initial prompt and Qwen's vocabulary.
+- **Words (`--add-word`)** feed Whisper's initial prompt.
   Keep personal words concise (roughly 10–30 high-frequency names or terms);
   stuffing hundreds of words dilutes Whisper's prompt. Parakeet ignores the
   word list and uses replacement pairs only.
